@@ -1,0 +1,458 @@
+url = "/shop"
+layout = "main"
+title = "Shop"
+==
+
+<main id="content" style="margin-top: 104px;">
+    <section class="py-2 bg-gray-2">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb breadcrumb-site py-0 d-flex justify-content-center">
+                    <li class="breadcrumb-item">
+                        <a class="text-decoration-none text-body" href="{{ 'home' | page }}">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active pl-0 d-flex align-items-center" aria-current="page">
+                        Shop Grid layout
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="container container-xl">
+            <h2 class="text-center mt-9 mb-8">Shop Grid Layout</h2>
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <p class="fs-18 font-weight-500 my-lg-0 my-2" style="color: #696969;">
+                    We found
+                    <strong class="font-weight-bold text-secondary">95</strong>
+                    products available for you
+                </p>
+                <div class="d-flex align-items-center">
+                    <div class="switch-layout d-lg-flex align-items-center d-none">
+                        <span class="pr-5">See</span>
+                        <a href="shop-page-02.html#" class="active pr-5" title="Grid View">
+                            <svg class="icon icon-squares-four fs-32 hover-secondary">
+                                <use xlink:href="#icon-squares-four"></use>
+                            </svg>
+                        </a>
+                        <a href="shop-page-05.html" title="List View">
+                            <svg class="icon icon-list fs-32 hover-secondary">
+                                <use xlink:href="#icon-list"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="dropdown show lh-1 rounded ml-lg-5 ml-0" style="background-color: #f5f5f5;">
+                        <a href="shop-page-02.html#"
+                            class="dropdown-toggle custom-dropdown-toggle text-decoration-none text-secondary p-3 mw-210 position-relative d-block"
+                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Default Sorting
+                        </a>
+                        <div class="dropdown-menu custom-dropdown-item" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="shop-page-02.html#">
+                                Price high to low
+                            </a>
+                            <a class="dropdown-item" href="shop-page-02.html#">
+                                Price low to high
+                            </a>
+                            <a class="dropdown-item" href="shop-page-02.html#">Random</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-7 pb-11 pb-lg-13">
+        <div class="container container-xl">
+            <div class="row">
+                <div class="col-lg-3 primary-sidebar sidebar-sticky pr-lg-8 d-lg-block d-none" id="sidebar">
+                    <div class="primary-sidebar-inner">
+                        <div class="card border-0 mb-6">
+                            <div class="card-header bg-transparent border-0 p-0">
+                                <h4 class="card-title fs-20 mb-3">Categories</h4>
+                            </div>
+                            <div class="card-body p-0">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#"
+                                            class="text-uppercase fs-14 letter-spacing-005 font-weight-600 text-body hover-secondary text-decoration-none">
+                                            BODY CARE
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#"
+                                            class="text-uppercase fs-14 letter-spacing-005 font-weight-600 text-body hover-secondary text-decoration-none">
+                                            Skin care
+                                        </a>
+                                        <!-- <ul class="list-unstyled ml-5 mt-2 mb-5">
+                                            <li class="mb-1">
+                                                <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                                    Cleanser
+                                                </a>
+                                            </li>
+                                            <li class="mb-1">
+                                                <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                                    Toner
+                                                </a>
+                                            </li>
+                                            <li class="mb-1">
+                                                <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                                    Scrubs & Masks
+                                                </a>
+                                            </li>
+                                            <li class="mb-1">
+                                                <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                                    Serum
+                                                </a>
+                                            </li>
+                                            <li class="mb-1">
+                                                <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                                    Face Oils
+                                                </a>
+                                            </li>
+                                            <li class="mb-1">
+                                                <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                                    Moisturizer
+                                                </a>
+                                            </li>
+                                            <li class="mb-1">
+                                                <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                                    Eye Cream
+                                                </a>
+                                            </li>
+                                        </ul> -->
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#"
+                                            class="text-uppercase fs-14 letter-spacing-005 font-weight-600 text-body hover-secondary text-decoration-none">
+                                            Hair CARE
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#"
+                                            class="text-uppercase fs-14 letter-spacing-005 font-weight-600 text-body hover-secondary text-decoration-none">
+                                            ACCESSORIES
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="card border-0 mb-6">
+                            <div class="card-header bg-transparent border-0 p-0">
+                                <h4 class="card-title fs-20 mb-3">Hightlight</h4>
+                            </div>
+                            <div class="card-body p-0">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            Best Seller
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            New Arrivals
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            Sale
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            Hot Items
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-6">
+                            <div class="card-header bg-transparent border-0 p-0">
+                                <h4 class="card-title fs-20 mb-3">Price</h4>
+                            </div>
+                            <div class="card-body p-0">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            <span>All</span>
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            <span>$50</span>
+                                            <span>-</span>
+                                            <span>$99</span>
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            <span>$100</span>
+                                            <span>-</span>
+                                            <span>$499</span>
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            <span>$500</span>
+                                            <span>-</span>
+                                            <span>$2000</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-6">
+                            <div class="card-header bg-transparent border-0 p-0">
+                                <h4 class="card-title fs-20 mb-3">Size</h4>
+                            </div>
+                            <div class="card-body p-0">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            Single
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            5 Pack
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            Full size
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            Mini size
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-6">
+                            <div class="card-header bg-transparent border-0 p-0">
+                                <h4 class="card-title fs-20 mb-3">Color</h4>
+                            </div>
+                            <div class="card-body p-0">
+                                <ul class="list-unstyled mb-0 widget-color d-flex flex-column">
+                                    <li class="mb-1">
+                                        <a href="shop-page-02.html#"
+                                            class="d-inline-flex align-items-center text-body text-decoration-none">
+                                            <span class="d-block item" style="background-color: #000;"></span>
+                                            <span class="ml-2">Black</span>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="shop-page-02.html#"
+                                            class="d-inline-flex align-items-center text-body text-decoration-none">
+                                            <span class="d-block item border" style="
+                          background-color: #ffffff;
+                          box-sizing: content-box;
+                        "></span>
+                                            <span class="ml-2">White</span>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="shop-page-02.html#"
+                                            class="d-inline-flex align-items-center text-body text-decoration-none">
+                                            <span class="d-block item" style="background-color: #0e328e;"></span>
+                                            <span class="ml-2">Pink</span>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="shop-page-02.html#"
+                                            class="d-inline-flex align-items-center text-body text-decoration-none">
+                                            <span class="d-block item" style="background-color: #672612;"></span>
+                                            <span class="ml-2">Maroon</span>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="shop-page-02.html#"
+                                            class="d-inline-flex align-items-center text-body text-decoration-none">
+                                            <span class="d-block item" style="background-color: #c71818;"></span>
+                                            <span class="ml-2">Red</span>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="shop-page-02.html#"
+                                            class="d-inline-flex align-items-center text-body text-decoration-none">
+                                            <span class="d-block item" style="background-color: #5e5e5e;"></span>
+                                            <span class="ml-2">Dark Heathe</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card border-0" style="max-width: 240px;">
+                            <div class="card-header bg-transparent border-0 p-0">
+                                <h3 class="card-title fs-20 mb-3">
+                                    Tags
+                                </h3>
+                            </div>
+                            <div class="card-body p-0">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item mr-2 pb-1">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            Cleansing
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-2 pb-1">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            Make up
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-2 pb-1">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            eye cream
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-2 pb-1">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            nail
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-2 pb-1">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            oil
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-2 pb-1">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            shampoo
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-2 pb-1">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            coffee bean
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-2 pb-1">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            healthy
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-2 pb-1">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            skin care
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-2 pb-1">
+                                        <a href="shop-page-02.html#" class="text-body hover-secondary">
+                                            sale
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-6 shop-card-hover" style="padding-top: 15px;">
+                            <div class="card border-0 product mb-6" data-animate="fadeInUp">
+                                <div class="position-relative">
+                                    <img src="{{ 'assets/images/product-10.jpg' | theme }}" alt="Facial cleanser" />
+                                    <div class="card-img-overlay d-flex p-3 flex-column">
+                                        <div class="mb-auto d-flex justify-content-center">
+                                            <!-- <div>
+                                                <span class="badge badge-primary">-20%</span>
+                                            </div> -->
+                                            <div class="w-100 content-change-vertical">
+                                                <a href="#" data-toggle="tooltip" data-placement="left"
+                                                    title="Quick view"
+                                                    class="preview ml-auto d-md-flex align-items-center justify-content-center cursor-pointer text-secondary bg-white hover-white bg-hover-secondary w-40px h-40px rounded-circle mb-2 d-none">
+                                                    <span data-toggle="modal" data-target="#quick-view">
+                                                        <svg class="icon icon-eye-light fs-20">
+                                                            <use xlink:href="#icon-eye-light"></use>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="text-center">
+                                            <a href="#"
+                                                class="btn btn-secondary bg-hover-primary border-hover-primary lh-12">
+                                                Add To Bag
+                                            </a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="card-body pt-4 text-center px-0">
+                                    <p class="card-text font-weight-bold fs-16 mb-1 text-secondary">
+                                        <!-- <span class="fs-13 font-weight-500 text-decoration-through text-body pr-1">
+                                            $39.00
+                                        </span> -->
+                                        <span>$29.00</span>
+                                    </p>
+                                    <h2 class="card-title fs-15 font-weight-500 mb-2">
+                                        <a href="http://templates.g5plus.net/glowing/product-page-01.html">
+                                            Facial cleanser
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="pt-3">
+                        <ul class="pagination justify-content-center align-items-center mb-0 fs-16 font-weight-600">
+                            <li class="page-item fs-18 d-none d-sm-block">
+                                <a class="page-link rounded-circle w-40px h-40 p-0 justify-content-center align-items-center d-flex"
+                                    href="shop-page-02.html#" tabindex="-1">
+                                    <i class="far fa-angle-double-left"></i>
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link rounded-circle w-40px h-40 p-0 justify-content-center align-items-center d-flex"
+                                    href="shop-page-02.html#">
+                                    1
+                                </a>
+                            </li>
+                            <li class="page-item active" aria-current="page">
+                                <a class="page-link rounded-circle w-40px h-40 p-0 justify-content-center align-items-center d-flex"
+                                    href="shop-page-02.html#">
+                                    2
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link rounded-circle w-40px h-40 p-0 justify-content-center align-items-center d-flex"
+                                    href="shop-page-02.html#">
+                                    3
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link rounded-circle w-40px h-40 p-0 justify-content-center align-items-center d-flex"
+                                    href="shop-page-02.html#">
+                                    4
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link rounded-circle w-40px h-40 p-0 justify-content-center align-items-center d-flex"
+                                    href="shop-page-02.html#">
+                                    5
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link rounded-circle w-40px h-40 p-0 justify-content-center align-items-center d-flex"
+                                    href="shop-page-02.html#">
+                                    ...
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link rounded-circle w-40px h-40 p-0 justify-content-center align-items-center d-flex"
+                                    href="shop-page-02.html#">
+                                    16
+                                </a>
+                            </li>
+                            <li class="page-item fs-18 d-none d-sm-block">
+                                <a class="page-link rounded-circle w-40px h-40 p-0 justify-content-center align-items-center d-flex"
+                                    href="shop-page-02.html#">
+                                    <i class="far fa-angle-double-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

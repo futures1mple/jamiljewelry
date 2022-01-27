@@ -21085,3 +21085,12 @@ svg.icon {
 .add-to-compare svg {
   fill: #140800;
 }
+
+.shop-card-hover {
+  transition: ease-in-out .3s;
+}
+
+.shop-card-hover:hover {
+  box-shadow: 5px 5px 20px grey;
+  cursor: pointer;
+}

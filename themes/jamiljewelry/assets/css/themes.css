@@ -18952,7 +18952,7 @@ a.hover-white:focus {
   color: #fff !important;
 }
 .bg-hover-primary:hover {
-  background-color: #602e0dad !important;
+  background-color: goldenrod !important;
 }
 .bg-hover-secondary:hover {
   background-color: #000 !important;
@@ -18979,10 +18979,10 @@ a.hover-white:focus {
   background-color: #fff !important;
 }
 a.bg-hover-primary:hover {
-  background-color: #602e0dad !important;
+  background-color: goldenrod !important;
 }
 a.bg-hover-primary:focus {
-  background-color: #602e0dad !important;
+  background-color: goldenrod !important;
 }
 a.bg-hover-secondary:hover {
   background-color: #000 !important;
